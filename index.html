@@ -8,10 +8,24 @@
     <form method="get" action="#null" autocomplete="on">
       <h1>Sign up form</h1>
       <p>Fill in this form to join our PROJECT-NAME project</p>
-      <input type="text" name="first-name" autocapitalize="on" required/>
-      <label>First Name:</label>
-      <input type="text" name="last-name" autocapitalize="on" required/>
-      <label>Last Name:</label>
+      <ol>
+        <li>
+          <label for="first-name">First Name:</label>
+          <input type="text" name="first-name" autocapitalize="on" required/>
+        </li>
+        <li>
+          <label for="last-name">Last Name:</label>
+          <input type="text" name="last-name" autocapitalize="on" required/>
+        </li>
+        <li>
+          <label for="email">Email:</label>
+          <input type="email" name="email" pattern="^.+@.+$" required/>
+        </li>
+        <li>
+          <label for="phone-number">Phone Number(Optional)</label>
+          <input type="tel" name="phone-number">
+        </li>
+      </ol>
     </form>
   </body>
 </html>
