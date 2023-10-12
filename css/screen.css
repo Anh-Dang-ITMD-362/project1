@@ -6,14 +6,12 @@ html {
 body{
   background-color: #f2e8ea;
 }
-#content, #form-container{
+#content, #form-container, label{
   padding: 1.182em;
 }
 label{
-  display: block;
-}
-#checkbox-label{
   display: inline-block;
+  padding-left: 0;
 }
 h1{
   display: block;
@@ -26,6 +24,16 @@ h1{
 #form-container{
   background-color: #f8f9fa;
 }
-p{
+p, h2{
   padding-bottom: 1.182em;
+}
+h2{
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+input[type=email]{
+  margin-left: 2em;
 }
