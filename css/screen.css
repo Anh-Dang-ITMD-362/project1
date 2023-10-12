@@ -37,3 +37,8 @@ h2{
 input[type=email]{
   margin-left: 2em;
 }
+#submit-button{
+  display: block;
+  text-align: center;
+  margin: auto;
+}
