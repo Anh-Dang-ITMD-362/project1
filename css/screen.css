@@ -1,13 +1,12 @@
 html {
   font-size: 1.25em; 
   line-height: 1.182em;
-
   text-rendering: optimizeLegibility;
 }
 body{
   background-color: #f2e8ea;
 }
-#content{
+#content, #form-container{
   padding: 1.182em;
 }
 label{
@@ -24,6 +23,6 @@ h1{
   position: float;
   font-weight: bold;
 }
-form{
+#form-container{
   background-color: #f8f9fa;
 }
