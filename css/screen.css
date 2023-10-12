@@ -17,7 +17,7 @@ h1{
   display: block;
   margin: 0;
   padding: 10px 1.182em;;
-  background-color: #ffff;
+  background-color: #f4f4f4;
   position: float;
   font-weight: bold;
 }
@@ -41,7 +41,13 @@ input[type=email]{
   display: block;
   text-align: center;
   margin: auto;
+  border-radius: 10%;
+  padding: .35em;
 }
 input[type=text]{
   width:225px;
+}
+input{
+  background-color: #f4f4f4;
+  border: none;
 }
