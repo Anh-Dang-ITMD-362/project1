@@ -24,3 +24,6 @@ h1{
   position: float;
   font-weight: bold;
 }
+form{
+  background-color: #f8f9fa;
+}
