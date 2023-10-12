@@ -1,11 +1,14 @@
 html {
   font-size: 1.25em; 
   line-height: 1.182em;
-  padding: 1.182em;
+
   text-rendering: optimizeLegibility;
 }
 body{
   background-color: #f5f3f0;
+}
+#content{
+  padding: 1.182em;
 }
 label{
   display: block;
@@ -16,7 +19,8 @@ label{
 h1{
   display: block;
   margin: 0;
-  padding: 10px;
+  padding: 10px 1.182em;;
   background-color: #ffff;
   position: float;
+  font-weight: bold;
 }
