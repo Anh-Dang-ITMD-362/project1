@@ -4,7 +4,7 @@ html {
   text-rendering: optimizeLegibility;
 }
 body{
-  background-color: #f2e8ea;
+  background-color: #f2e8eac6;
 }
 #content, #form-container, label{
   padding: 1.182em;
@@ -22,7 +22,7 @@ h1{
   font-weight: bold;
 }
 #form-container{
-  background-color: #f8f9fa;
+  background-color: #eedce1cc;
 }
 p, h2{
   padding-bottom: 1.182em;
