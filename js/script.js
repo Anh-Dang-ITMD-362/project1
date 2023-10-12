@@ -2,20 +2,12 @@
 jQuery(function($) {
   $('html').removeClass('nojs');
   $('html').addClass('hasjs');
-  $('#email').on('focus', function() {
-      $('#input-email label').addClass('active');
-  });
-  $('#email').on('blur', function() {
-    if($('#email').val().length == 0) {
-      $('#input-email label').removeClass('active');
-    }
-  });
 });
 
 var form = document.getElementById('form');
 
-function Complete(){
-  if(form.checkValidity()){
-    alert('Thank you for submitting the form!');
+function complete() {
+  if (form.checkValidity()) {
+    alert("You have successfully signed up\nCheck your email for more information");
   }
 }
