@@ -1,6 +1,6 @@
 html {
-  font-size: 1.25em; 
-  line-height: 1.182em;
+  font-size: 1.25em; /*20px*/
+  line-height: 1.182em; /*26px*/
   text-rendering: optimizeLegibility;
 }
 body{
@@ -35,10 +35,13 @@ h2{
   text-align: center;
 }
 input[type=email]{
-  margin-left: 2em;
+  width: 266px;
 }
 #submit-button{
   display: block;
   text-align: center;
   margin: auto;
+}
+input[type=text]{
+  width:225px;
 }
