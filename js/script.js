@@ -8,6 +8,6 @@ var form = document.getElementById('form');
 
 function complete() {
   if (form.checkValidity()) {
-    alert("You have successfully signed up\nCheck your email for more information");
+    alert("Thank you for signing up!\n\nOur product is currently under development and will be published soon. We will send you the link and instructions once our product is finished. Your time and feedback is highly appreciated.");
   }
 }
