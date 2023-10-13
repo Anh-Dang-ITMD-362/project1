@@ -88,11 +88,10 @@ input[type=checkbox]{
   #intro{
     width: 11em;
     vertical-align: top;
-
+    line-height: 1.75em;/*28px*/
   }
   #form-container{
     width: 50%;
-
   }
 }
 
