@@ -65,3 +65,19 @@ input{
 input[type=checkbox]{
   margin-top: 10%;
 }
+@media screen and (min-width: 510px) {
+  #content{
+    width: 80%;
+    margin: 1em auto;
+    background-color:rgb(245, 245, 245,.3);
+  }
+  ol{
+    padding: 1.5em 1em;
+  }
+  intro{
+    display: block;
+    word-wrap: break-word;
+    float: left;
+    width: 50%;
+  }
+}
