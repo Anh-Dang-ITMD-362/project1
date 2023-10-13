@@ -136,6 +136,9 @@ ol{
   #form-container{
     width: 45%;
     margin-right: 5%;
-    padding: 02%;
+    padding: 1%;
+  }
+  h2{
+    padding: .5em;
   }
 }
