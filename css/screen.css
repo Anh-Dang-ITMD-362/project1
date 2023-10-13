@@ -2,7 +2,7 @@ html {
   font-size: 1.25em; /*20px*/
   line-height: 1.182em; /*26px*/
   text-rendering: optimizeLegibility;
-  overflow: hidden;
+  overflow: scroll;
 }
 div{
   display: block;
@@ -115,10 +115,27 @@ ol{
     margin-right: 0;
   }
 }
-
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1480px){
   #content{
-    width: 80%;
-    margin: 1em auto;
+    padding: 5%;
+  }
+  body{
+    background-color: #f8efef;
+  }
+  #intro, #form-container{
+    margin:0;
+    height: 400px;
+  }
+  #intro{
+    background-color: #f2e8eae2;
+    padding: 2%;
+    margin-left:15%;
+    height:max-content;
+    width: 20%;
+  }
+  #form-container{
+    width: 45%;
+    margin-right: 5%;
+    padding: 02%;
   }
 }
