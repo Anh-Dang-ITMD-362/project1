@@ -83,7 +83,7 @@ ol{
 }
 @media screen and (min-width: 768px) {
   #content{
-    padding: 0;
+    padding: 0 2em;
     width: 90%;
     background-color:rgb(245, 245, 245,.3);
     position: relative;
@@ -102,6 +102,7 @@ ol{
     vertical-align: top;
     line-height: 1.75em;/*28px*/
     margin-right: 3%;
+    margin-left: 3%;
   }
   #form-container{
     width: 60%;
