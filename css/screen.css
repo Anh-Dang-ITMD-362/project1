@@ -59,3 +59,9 @@ input{
   background-color: #f4f4f4;
   border: none;
 }
+#checkbox-label{
+  font-size: .875em;
+}
+input[type=checkbox]{
+  margin-top: 10%;
+}
