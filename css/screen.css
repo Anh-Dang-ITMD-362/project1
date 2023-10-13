@@ -3,6 +3,9 @@ html {
   line-height: 1.182em; /*26px*/
   text-rendering: optimizeLegibility;
 }
+div{
+  display: block;
+}
 body{
   background-color: #f2e8eac6;
 }
@@ -42,7 +45,7 @@ p{
   color: rgba(80, 60, 60, 0.833);
 }
 input[type=email]{
-  width: 266px;
+  width: 9em;
 }
 #submit-button{
   display: block;
@@ -68,21 +71,32 @@ input[type=checkbox]{
 #checkbox, #submit-button{
   cursor:pointer;
 }
-@media screen and (min-width: 510px) {
+@media screen and (min-width: 768px) {
   #content{
-    width: 80%;
-    margin: 1em auto;
+    padding: 0;
+    width: 100%;
     background-color:rgb(245, 245, 245,.3);
-  }
-  ol{
-    padding: 1.5em 1em;
+    position: relative;
   }
   h1{
     text-align: center;
   }
+  #intro, #form-container{
+    display: inline-block;
+    margin: 10% auto auto 5%;
+  }
+  #intro{
+    width: 11em;
+    vertical-align: top;
+
+  }
+  #form-container{
+    width: 50%;
+
+  }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1480px){
   #content{
     width: 60%;
     margin: 1em auto;
