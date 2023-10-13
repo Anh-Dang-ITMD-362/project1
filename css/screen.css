@@ -20,10 +20,12 @@ h1{
   background-color: #fbfbfb;
   position: float;
   font-weight: bold;
-  font-family: Dosis;
+  font-family: 'Dosis', Arial, Helvetica, sans-serif;
 }
 #form-container{
   background-color: #eedce1cc;
+  color: rgb(48, 50, 49);
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
 }
 p, h2{
   padding-bottom: 1.182em;
