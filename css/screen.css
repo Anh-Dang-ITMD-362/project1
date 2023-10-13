@@ -35,6 +35,10 @@ h2{
   margin-right: auto;
   text-align: center;
 }
+p{
+  font-size: 1em;
+  color: rgba(80, 60, 60, 0.833);
+}
 input[type=email]{
   width: 266px;
 }
