@@ -112,6 +112,10 @@ ol{
     border: solid white 3px;
     border-radius: 20px;
   }
+  #checkbox-label{
+    width: 90%;
+    margin: auto;
+  }
 }
 @media screen and (min-width: 1480px){
   #content{
