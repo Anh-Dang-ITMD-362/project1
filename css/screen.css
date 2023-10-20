@@ -140,6 +140,8 @@ ol{
     height:max-content;
     width: 20%;
     vertical-align: top;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
   }
   p{
     border: none;
@@ -151,6 +153,8 @@ ol{
     padding: 1%;
     border: none;
     border-radius: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
   }
   h2{
     padding: .5em;
