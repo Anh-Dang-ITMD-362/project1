@@ -83,33 +83,34 @@ ol{
 }
 @media screen and (min-width: 768px) {
   #content{
-    padding: 0 2em;
-    width: 90%;
-    background-color:rgb(245, 245, 245,.3);
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 5% 10%;
+  }
+  body{
+    background-color: #f8efef;
   }
   h1{
     text-align: center;
   }
-  #intro, #form-container{
-    display: inline-block;
-    margin-top: 10%;
+  #form-container{
+    padding:5%;
   }
-  #intro{
-    width: 11em;
-    vertical-align: top;
-    line-height: 1.75em;/*28px*/
-    margin-right: 3%;
-    margin-left: 3%;
+  ol{
+    text-align: center;
+  }
+  input[type=checkbox]{
+    text-align: center;
+    margin-left: 10%;
+  }
+  p{
+    margin-bottom: 1.875em;
+    padding: .875em;
+    font-size: 1em;
+    border-top: double;
+    border-bottom: double;
   }
   #form-container{
-    width: 60%;
-  }
-  input[type=email], input[type=text]{
-    margin:0;
-    width: 60%;
+    border: solid white 3px;
+    border-radius: 20px;
   }
 }
 @media screen and (min-width: 1480px){
