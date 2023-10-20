@@ -58,7 +58,7 @@ input[type=email]{
   border: 4px solid rgb(255, 192, 231);
   width: fit-content;
 }
-input{
+input[type=text], input[type=email]{
   background-color: #f4f4f4;
   border: none;
   width: 60%;
@@ -66,11 +66,6 @@ input{
 }
 #checkbox-label{
   font-size: .875em;
-}
-input[type=checkbox]{
-  margin-top: 10%;
-  width: 5%;
-  margin-right: 0;
 }
 #checkbox, #submit-button{
   cursor:pointer;
