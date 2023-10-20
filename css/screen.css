@@ -67,6 +67,9 @@ input[type=text], input[type=email]{
 #checkbox-label{
   font-size: .875em;
 }
+input[type=checkbox]{
+  margin-right: 5px;
+}
 #checkbox, #submit-button{
   cursor:pointer;
 }
