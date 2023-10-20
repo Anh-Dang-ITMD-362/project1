@@ -116,6 +116,10 @@ ol{
 @media screen and (min-width: 1480px){
   #content{
     padding: 5%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
   }
   body{
     background-color: #f8efef;
@@ -123,6 +127,7 @@ ol{
   #intro, #form-container{
     margin:0;
     height: 400px;
+    display: inline-block;
   }
   #intro{
     background-color: #f2e8eae2;
@@ -130,6 +135,7 @@ ol{
     margin-left:15%;
     height:max-content;
     width: 20%;
+    vertical-align: top;
   }
   p{
     border: none;
@@ -139,6 +145,7 @@ ol{
     margin-right: 5%;
     padding: 1%;
     border: none;
+    border-radius: 0;
   }
   h2{
     padding: .5em;
