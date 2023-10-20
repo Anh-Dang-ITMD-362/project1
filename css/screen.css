@@ -131,10 +131,14 @@ ol{
     height:max-content;
     width: 20%;
   }
+  p{
+    border: none;
+  }
   #form-container{
     width: 45%;
     margin-right: 5%;
     padding: 1%;
+    border: none;
   }
   h2{
     padding: .5em;
