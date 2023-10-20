@@ -139,6 +139,7 @@ ol{
   }
   p{
     border: none;
+    padding:1.3em 5%;
   }
   #form-container{
     width: 45%;
@@ -149,5 +150,9 @@ ol{
   }
   h2{
     padding: .5em;
+  }
+  input[type=checkbox]{
+    margin-left: 1em;
+    text-align: left;
   }
 }
