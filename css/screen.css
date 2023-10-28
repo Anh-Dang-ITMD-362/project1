@@ -123,10 +123,10 @@ ol{
 @media screen and (min-width: 1480px){
   #content{
     padding: 5%;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
     position: relative;
+    align-items:strech;
+    justify-content: flex-start;
   }
   body{
     background-color: #f8efef;
