@@ -64,7 +64,7 @@ input{
 }
 input[type=text], input[type=email]{
   background-color: #f4f4f4;
-  width: 60%;
+  width: 90%;
   resize: vertical;
 }
 #checkbox-label{
@@ -100,6 +100,9 @@ ol{
   input[type=checkbox]{
     text-align: center;
     margin-left: 10%;
+  }
+  input[type=text], input[type=email]{
+    width: 60%;
   }
   p{
     margin-bottom: 1.875em;
