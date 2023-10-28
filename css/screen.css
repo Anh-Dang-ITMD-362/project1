@@ -144,10 +144,6 @@ ol{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
   }
-  ol{
-    width: 80%;
-    margin: auto;
-  }
   p{
     border: none;
     padding:1.3em 5%;
