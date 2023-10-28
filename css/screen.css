@@ -46,9 +46,6 @@ p{
   font-size: 1em;
   color: rgba(80, 60, 60, 0.833);
 }
-input[type=email]{
-  margin-left: 2em;
-}
 #submit-button{
   display: block;
   text-align: center;
@@ -103,6 +100,9 @@ ol{
   }
   input[type=text], input[type=email]{
     width: 60%;
+  }
+  input[type=email]{
+  margin-left: 2em;
   }
   p{
     margin-bottom: 1.875em;
