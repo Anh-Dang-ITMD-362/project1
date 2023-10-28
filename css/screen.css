@@ -139,7 +139,6 @@ ol{
     background-color: #f2e8eae2;
     padding: 2%;
     margin-left:15%;
-    height:max-content;
     width: 20%;
     vertical-align: top;
     border-top-left-radius: 20px;
@@ -148,6 +147,9 @@ ol{
   p{
     border: none;
     padding:1.3em 5%;
+    width:fit-content;
+    margin:auto;
+    line-height: 1.5em;
   }
   #form-container{
     width: 45%;
