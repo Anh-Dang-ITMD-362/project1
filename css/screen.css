@@ -132,8 +132,7 @@ ol{
     background-color: #f8efef;
   }
   #intro, #form-container{
-    margin:0;
-    height: 400px;
+    margin:0;  
     display: inline-block;
   }
   #intro{
@@ -153,6 +152,7 @@ ol{
   #form-container{
     width: 45%;
     margin-right: 5%;
+    height: 400px;
     padding: 1%;
     border: none;
     border-radius: 0;
