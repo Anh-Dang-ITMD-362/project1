@@ -125,7 +125,6 @@ ol{
     padding: 5%;
     display: flex;
     position: relative;
-    align-items:strech;
     justify-content: flex-start;
   }
   body{
